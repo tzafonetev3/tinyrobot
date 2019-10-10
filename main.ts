@@ -5,7 +5,7 @@ load dependency
 "Tinybit": "file:../pxt-Tinybit"
 */
 
-//% color="#006400" weight=20 icon="\uf1b9"
+//% color="#B75F8A" weight=20 icon="\uf1b9"
 namespace Tinybit {
 
     const PWM_ADD = 0x01
@@ -177,7 +177,7 @@ namespace Tinybit {
     //% blockId=Tinybit_RGB_Car_Program block="RGB_Car_Program"
     //% weight=99
     //% blockGap=10
-    //% color="#006400"
+    //% color="#B75F8A"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Car_Program(): neopixel.Strip {
          
@@ -241,7 +241,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Music_Car block="Music_Car|%index"
     //% weight=95
     //% blockGap=10
-    //% color="#006400"
+    //% color="#A1BC76"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Car(index: enMusic): void {
         switch (index) {
@@ -273,7 +273,7 @@ namespace Tinybit {
     //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
-    //% color="#006400"
+    //% color="#92E847"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -291,7 +291,7 @@ namespace Tinybit {
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#006400"
+    //% color="#92E847"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
@@ -309,7 +309,7 @@ namespace Tinybit {
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
-    //% color="#006400"
+    //% color="#92E847"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
@@ -328,7 +328,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
     //% weight=89
     //% blockGap=10
-    //% color="#006400"
+    //% color="#4C81B2"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
@@ -362,6 +362,7 @@ namespace Tinybit {
 
     //% blockId=Tinybit_Voice_Sensor block="Voice Sensor return"
     //% weight=88
+    //% color="#4C81B2"
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Voice_Sensor(): number {
@@ -374,7 +375,7 @@ namespace Tinybit {
     }
         
     //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
-    //% color="#006400"
+    //% color="#4C81B2"
     //% weight=87
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
