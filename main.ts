@@ -6,7 +6,6 @@ load dependency
 */
 
 //% color="#B75F8A" weight=20 icon="\uf1b9"
-//% groups='["מנועים", "חיישן מרחק", "חיישן קו","נורות"]'
 namespace Tinybit {
 
     const PWM_ADD = 0x01
@@ -269,7 +268,7 @@ namespace Tinybit {
         }
     }
     
-     //% group="מנועים"
+ 
     //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
